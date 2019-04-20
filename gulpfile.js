@@ -64,7 +64,7 @@ function js(done) {
 
 function zipper(done) {
     const targetDir = 'dist/';
-    const themeName = require('./package.json').name;
+    const themeName = `${require('./package.json').name}${"-swiftness"}`;
     const filename = themeName + '.zip';
 
     pump([
