@@ -32,7 +32,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #f4f8fb;
+    background: #e5eff5;
 }
 
 .img {
@@ -663,7 +663,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
-    background: #fff;
 }
 
 .post-full {
